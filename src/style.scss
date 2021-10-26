@@ -1,0 +1,52 @@
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(233, 161, 161);
+$page-color: rgb(226, 226, 30);
+$titel-h2: rgb(114, 114, 233);
+
+*{
+    
+    margin: 0px ;
+    padding: 0px;
+}
+
+body {
+  font: 100% $font-stack;
+ 
+  
+}
+
+.container-fluid{
+  background-color: $page-color;
+  border:rgb(48, 32, 32) solid 1px; 
+  border-radius: 10px;
+  text-align: center;
+  margin: 4px;
+  padding: 10px;
+}
+
+.row {
+  text-align: center;
+  margin: 5px;
+}
+
+.btnn {
+    color: whitesmoke;
+    padding: 10px;
+    width: 10%;
+    background-color: $titel-h2;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 2px 6px 5px rgb(48, 32, 32);
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.btnn:hover{
+  color: rgb(34, 32, 32);
+  width: 11%;
+  background-color: rgb(76, 218, 236);
+}
+
+
